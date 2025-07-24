@@ -3,7 +3,7 @@ module github.com/happy-sdk/cmd/gohappy
 go 1.24.4
 
 require (
-	github.com/happy-sdk/addons/devel v0.1.0
+	github.com/happy-sdk/addons/devel v0.1.1
 	github.com/happy-sdk/happy v0.100.2
 	github.com/happy-sdk/happy/pkg/branding v0.3.3
 	github.com/happy-sdk/happy/pkg/strings/textfmt v0.5.1
