@@ -4,7 +4,7 @@ go 1.24.4
 
 require (
 	github.com/happy-sdk/addons/devel v0.1.2
-	github.com/happy-sdk/happy v0.100.5
+	github.com/happy-sdk/happy v0.102.0
 	github.com/happy-sdk/happy/pkg/branding v0.3.3
 	github.com/happy-sdk/happy/pkg/strings/textfmt v0.5.1
 	github.com/happy-sdk/happy/pkg/version v0.4.1
@@ -28,19 +28,19 @@ require (
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/happy-sdk/happy/pkg/devel/goutils v0.1.1 // indirect
 	github.com/happy-sdk/happy/pkg/devel/testutils v1.1.1 // indirect
-	github.com/happy-sdk/happy/pkg/fsutils v0.2.0 // indirect
+	github.com/happy-sdk/happy/pkg/fsutils v0.3.0 // indirect
 	github.com/happy-sdk/happy/pkg/i18n v0.2.0 // indirect
 	github.com/happy-sdk/happy/pkg/logging v0.2.4 // indirect
-	github.com/happy-sdk/happy/pkg/logging/adapters/console v0.1.5 // indirect
-	github.com/happy-sdk/happy/pkg/networking v0.1.0 // indirect
-	github.com/happy-sdk/happy/pkg/options v0.6.1 // indirect
+	github.com/happy-sdk/happy/pkg/logging/adapters/console v0.1.6 // indirect
+	github.com/happy-sdk/happy/pkg/networking v0.2.0 // indirect
+	github.com/happy-sdk/happy/pkg/options v0.6.3 // indirect
 	github.com/happy-sdk/happy/pkg/scheduling/cron v0.5.2 // indirect
-	github.com/happy-sdk/happy/pkg/settings v0.6.3 // indirect
+	github.com/happy-sdk/happy/pkg/settings v0.7.0 // indirect
 	github.com/happy-sdk/happy/pkg/strings/bexp v1.5.2 // indirect
 	github.com/happy-sdk/happy/pkg/strings/humanize v0.5.2 // indirect
 	github.com/happy-sdk/happy/pkg/strings/slug v0.2.1 // indirect
 	github.com/happy-sdk/happy/pkg/tui v0.1.0 // indirect
-	github.com/happy-sdk/happy/pkg/vars v0.18.2 // indirect
+	github.com/happy-sdk/happy/pkg/vars v0.19.0 // indirect
 	github.com/happy-sdk/lib/taskrunner v0.8.0 // indirect
 	github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99 // indirect
 	github.com/lucasb-eyer/go-colorful v1.2.0 // indirect
@@ -52,10 +52,11 @@ require (
 	github.com/muesli/termenv v0.16.0 // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/xo/terminfo v0.0.0-20220910002029-abceb7e1c41e // indirect
-	golang.org/x/mod v0.25.0 // indirect
-	golang.org/x/net v0.39.0 // indirect
-	golang.org/x/sync v0.15.0 // indirect
-	golang.org/x/sys v0.33.0 // indirect
-	golang.org/x/text v0.26.0 // indirect
+	golang.org/x/exp v0.0.0-20250103183323-7d7fa50e5329 // indirect
+	golang.org/x/mod v0.27.0 // indirect
+	golang.org/x/net v0.40.0 // indirect
+	golang.org/x/sync v0.16.0 // indirect
+	golang.org/x/sys v0.35.0 // indirect
+	golang.org/x/text v0.28.0 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 )
