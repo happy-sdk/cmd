@@ -3,7 +3,7 @@ module github.com/happy-sdk/cmd/gohappy
 go 1.24.4
 
 require (
-	github.com/happy-sdk/addons/devel v0.1.2
+	github.com/happy-sdk/addons/devel v0.2.0
 	github.com/happy-sdk/happy v0.102.0
 	github.com/happy-sdk/happy/pkg/branding v0.3.3
 	github.com/happy-sdk/happy/pkg/strings/textfmt v0.5.1
@@ -41,7 +41,7 @@ require (
 	github.com/happy-sdk/happy/pkg/strings/slug v0.2.1 // indirect
 	github.com/happy-sdk/happy/pkg/tui v0.1.0 // indirect
 	github.com/happy-sdk/happy/pkg/vars v0.19.0 // indirect
-	github.com/happy-sdk/lib/taskrunner v0.8.0 // indirect
+	github.com/happy-sdk/lib/taskrunner v0.8.1 // indirect
 	github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99 // indirect
 	github.com/lucasb-eyer/go-colorful v1.2.0 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
@@ -52,7 +52,6 @@ require (
 	github.com/muesli/termenv v0.16.0 // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/xo/terminfo v0.0.0-20220910002029-abceb7e1c41e // indirect
-	golang.org/x/exp v0.0.0-20250103183323-7d7fa50e5329 // indirect
 	golang.org/x/mod v0.27.0 // indirect
 	golang.org/x/net v0.40.0 // indirect
 	golang.org/x/sync v0.16.0 // indirect
