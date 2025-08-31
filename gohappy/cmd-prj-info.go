@@ -31,9 +31,7 @@ func (s *state) cmdProjectInfo() *command.Command {
 			if err != nil {
 				return err
 			}
-			infotbl := textfmt.Table{
-				WithHeader: false,
-			}
+			infotbl := textfmt.NewTable(textfmt.TableWithHeader())
 
 			dir := prj.Dir()
 

@@ -59,10 +59,10 @@ func cmdProjectsLs() *command.Command {
 				return err
 			}
 
-			table := textfmt.Table{
-				Title:      "Projects",
-				WithHeader: true,
-			}
+			table := textfmt.NewTable(
+				textfmt.TableTitle("Projects"),
+				textfmt.TableWithHeader(),
+			)
 			table.AddRow("Path", "Version", "Happy Version")
 			for prj := range prjs {
 				var ver string
