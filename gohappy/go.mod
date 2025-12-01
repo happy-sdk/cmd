@@ -36,13 +36,11 @@ require (
 	github.com/happy-sdk/happy/pkg/fsutils v0.4.0 // indirect
 	github.com/happy-sdk/happy/pkg/i18n v0.2.1 // indirect
 	github.com/happy-sdk/happy/pkg/logging v0.3.0 // indirect
-	github.com/happy-sdk/happy/pkg/logging/adapters/console v0.1.6 // indirect
 	github.com/happy-sdk/happy/pkg/networking v0.2.0 // indirect
 	github.com/happy-sdk/happy/pkg/options v0.7.0 // indirect
 	github.com/happy-sdk/happy/pkg/scheduling/cron v0.6.0 // indirect
 	github.com/happy-sdk/happy/pkg/settings v0.8.0 // indirect
 	github.com/happy-sdk/happy/pkg/strings/bexp v1.6.0 // indirect
-	github.com/happy-sdk/happy/pkg/strings/humanize v0.6.0 // indirect
 	github.com/happy-sdk/happy/pkg/strings/slug v0.2.1 // indirect
 	github.com/happy-sdk/happy/pkg/tui v0.2.0 // indirect
 	github.com/happy-sdk/happy/pkg/vars v0.20.0 // indirect
@@ -59,7 +57,6 @@ require (
 	github.com/xo/terminfo v0.0.0-20220910002029-abceb7e1c41e // indirect
 	golang.org/x/mod v0.30.0 // indirect
 	golang.org/x/net v0.47.0 // indirect
-	golang.org/x/sync v0.18.0 // indirect
 	golang.org/x/sys v0.38.0 // indirect
 	golang.org/x/term v0.37.0 // indirect
 	golang.org/x/text v0.31.0 // indirect
